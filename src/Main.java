@@ -11,9 +11,11 @@ public class Main {
     public static void main(String[] args) {
         // create scanner object reference
         Scanner scanner = new Scanner(System.in);
+
         // capture radius input and assign to variable
         System.out.println("Enter radius of sphere: ");
         double radius = scanner.nextDouble();
+
         // call each method to calculate volume, SA and circumference
         // pass radius as parameter to each method
         // round to 4 decimal places using format method
